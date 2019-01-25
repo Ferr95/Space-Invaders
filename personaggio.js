@@ -4,7 +4,6 @@
 
   File che descrive il personaggio principale
 */
-
 var astronave = {
   x: 0,
   y: 0,

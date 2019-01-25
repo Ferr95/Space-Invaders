@@ -4,7 +4,6 @@
 
   File che descrive i vari nemici
 */
-
 var speedNemici = 0.7; //min 0.7 max 5
 var probabilitàSparo = 5;
 

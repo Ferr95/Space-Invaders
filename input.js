@@ -34,7 +34,6 @@ document.onkeydown = function(event) {
 }
 }
 
-
 document.onkeyup = function(event) {
   if(event.keyCode === 37 || event.keyCode === 100) {
     //Left

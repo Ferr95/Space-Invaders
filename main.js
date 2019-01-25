@@ -474,7 +474,7 @@ reset = function() {
   missileAstronaveNemica.reset();
   astronaveNemica.reset();
 
-  //nemici
+  //nemici gioco
   numOfEnemies = 0;
   var enemyX = 5;
   var enemyY = 20 + astronaveNemica.height; //Altrimenti andrei a toccare l'astronave nemica
