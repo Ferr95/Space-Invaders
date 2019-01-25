@@ -5,7 +5,6 @@
 	File di utilità
 */
 
-
 window.requestAnimFrame = (function(callback) {
 	return window.requestAnimationFrame ||
 		   window.webkitRequestAnimationFrame ||
