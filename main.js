@@ -13,6 +13,7 @@ var ctx = canvas.getContext("2d");
 
 var animation_frame;
 
+//Immagini del gioco
 var background = new Image();
 var astronaveImg = new Image();
 var universoImg = new Image();
@@ -315,7 +316,7 @@ update = function() {
       }
   }
     //Vado a lanciare il missile
-    if(astronave.sparo) { miss = new missile(); astronave.sparo = false;       stoSparando = true; }
+    if(astronave.sparo) { miss = new missile(); astronave.sparo = false; stoSparando = true; }
     if(miss !== undefined && miss != null) {
       if(stoSparando) {
       miss.drawMissile();
@@ -339,13 +340,13 @@ update = function() {
         if(enemyList[i].img === 4) score += 10;
 
         suonoKill.stop();
-        suonoKill.play();
         delete enemyList[i];
         colpiti++;
         stoSparando = false;
         astronave.sparo = false;
         astronave.prima = 0;
         shotOk = true;
+        suonoKill.play();
         break;
       }
       if(!stoSparando) break;
@@ -371,7 +372,6 @@ update = function() {
 
 //Funzione utilizzata per disegnare la schermata di avvio
 drawSchermata = function() {
-
 
   ctx.save();
   //Ripulisco la schermata
