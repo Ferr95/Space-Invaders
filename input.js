@@ -1,7 +1,7 @@
 /**
  input.js
 
- Davide Ferri 517176
+ Davide Ferri 
 
  File la gestione dell'input dell'utente
 */
