@@ -1,6 +1,6 @@
 /**
 	requestanim.js
-	Davide Ferri 517176
+	Davide Ferri
 
 	File di utilità
 */
