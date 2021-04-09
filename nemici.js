@@ -1,6 +1,6 @@
 /**
   nemici.js
-  Davide Ferri 517176
+  Davide Ferri 
 
   File che descrive i vari nemici
 */
