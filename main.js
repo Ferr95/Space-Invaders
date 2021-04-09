@@ -1,7 +1,7 @@
 /**
   main.js
 
-  Davide Ferri 517176
+  Davide Ferri 
 
   Script principale del gioco
 */
