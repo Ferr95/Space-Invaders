@@ -1,7 +1,6 @@
 /**
   personaggio.js
-  Davide Ferri 517176
-
+  Davide Ferri 
   File che descrive il personaggio principale
 */
 var astronave = {
